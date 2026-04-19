@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{SITE_TITLE}}</title>
-    <meta name="description" content="{{META_DESCRIPTION}}" />
+    <title>Raccster VPN</title>
+    <meta
+      name="description"
+      content="Подключи VPN через Telegram-бота и разблокируй весь интернет за 30 секунд."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,124 +17,27 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="hero">
-        <nav class="topbar">
-          <a class="brand" href="#top">{{BRAND_NAME}}</a>
-          <div class="topbar-links">{{NAV_LINKS}}</div>
-        </nav>
-
-        <div class="hero-card" id="top">
-          <div class="hero-copy">
-            <span class="eyebrow">{{HERO_EYEBROW}}</span>
-            <h1>{{HERO_TITLE}}</h1>
-            <p class="lead">{{HERO_LEAD}}</p>
-            <div class="hero-actions">
-              {{HERO_PRIMARY_ACTION}}
-              {{HERO_SECONDARY_ACTION}}
-            </div>
+    <main class="page-shell">
+      <section class="hero-card" id="top">
+        <div class="hero-copy">
+          <span class="eyebrow">Raccster VPN</span>
+          <h1>🚀 Разблокируй весь интернет за 30 секунд</h1>
+          <div class="message">
+            <p>Привет 👋</p>
+            <p>Хочешь открыть доступ ко всем сайтам и сервисам без ограничений?</p>
+            <p>Через нашего телеграмм бота ты сможешь подключить VPN за 1 минуту — без сложных настроек.</p>
+            <p>Нажми кнопку ниже и получи доступ 👇</p>
           </div>
-
-          <aside class="hero-aside">
-            <div class="status-card">
-              <span class="status-label">{{STATUS_LABEL}}</span>
-              <h2>{{STATUS_TITLE}}</h2>
-              <p>{{STATUS_DESCRIPTION}}</p>
-            </div>
-          </aside>
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="https://web.raccster.dmtr.ru/raccster-bot"
+              target="_blank"
+              rel="noreferrer"
+            >Перейти в телеграмм</a>
+          </div>
         </div>
-      </header>
-
-      <main class="content">
-        <section class="section" id="fast-start">
-          <div class="section-head">
-            <span class="section-kicker">{{FAST_START_KICKER}}</span>
-            <h2>{{FAST_START_TITLE}}</h2>
-            <p>{{FAST_START_DESCRIPTION}}</p>
-          </div>
-
-          <div class="step-grid">{{FAST_START_STEPS}}</div>
-        </section>
-
-        <section class="section" id="manual">
-          <div class="section-head">
-            <span class="section-kicker">{{MANUAL_KICKER}}</span>
-            <h2>{{MANUAL_TITLE}}</h2>
-            <p>{{MANUAL_DESCRIPTION}}</p>
-          </div>
-
-          <div class="guide-layout">
-            <article class="guide-panel">
-              <div class="panel-heading">
-                <span class="step-number">1</span>
-                <div>
-                  <h3>Установите приложение</h3>
-                  <p>Подойдёт любой из вариантов ниже, если он ещё не установлен.</p>
-                </div>
-              </div>
-
-              <div class="app-list">{{APP_CHOICES}}</div>
-            </article>
-
-            <article class="guide-panel">
-              <div class="panel-heading">
-                <span class="step-number">{{CONNECTION_STEP_NUMBER}}</span>
-                <div>
-                  <h3>{{CONNECTION_STEP_TITLE}}</h3>
-                  <p>{{CONNECTION_STEP_DESCRIPTION}}</p>
-                </div>
-              </div>
-
-              {{CONNECTION_ACTION}}
-              <p class="helper-text">{{CONNECTION_HELPER_TEXT}}</p>
-            </article>
-
-            <article class="guide-panel">
-              <div class="panel-heading">
-                <span class="step-number">{{ACTIVATION_STEP_NUMBER}}</span>
-                <div>
-                  <h3>{{ACTIVATION_STEP_TITLE}}</h3>
-                  <p>{{ACTIVATION_STEP_DESCRIPTION}}</p>
-                </div>
-              </div>
-
-              <ul class="check-list">{{ACTIVATION_CHECKLIST}}</ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="section" id="buy">
-          <div class="section-head">
-            <span class="section-kicker">{{BUY_KICKER}}</span>
-            <h2>{{BUY_TITLE}}</h2>
-            <p>{{BUY_DESCRIPTION}}</p>
-          </div>
-
-          <div class="purchase-card">
-            <div>
-              <h3>{{BUY_CARD_TITLE}}</h3>
-              <p>{{BUY_CARD_DESCRIPTION}}</p>
-            </div>
-
-            {{BUY_ACTION}}
-          </div>
-        </section>
-
-        <section class="section section-faq">
-          <div class="section-head">
-            <span class="section-kicker">{{FAQ_KICKER}}</span>
-            <h2>{{FAQ_TITLE}}</h2>
-          </div>
-
-          <div class="faq-grid">{{FAQ_ITEMS}}</div>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <p>© <span id="current-year">{{CURRENT_YEAR}}</span> {{FOOTER_TEXT}}</p>
-      </footer>
-    </div>
-
-    <script src="./script.js"></script>
+      </section>
+    </main>
   </body>
 </html>

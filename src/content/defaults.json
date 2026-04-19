@@ -1,7 +1,7 @@
 {
-  "siteTitle": "Raccster | Подключение VPN и покупка",
-  "metaDescription": "Инструкция по подключению VPN, прокси и покупке доступа через Raccster.",
-  "brandName": "Raccster",
+  "siteTitle": "Raccster VPN",
+  "metaDescription": "Подключи VPN через Telegram-бота и разблокируй весь интернет за 30 секунд.",
+  "brandName": "Raccster VPN",
   "navLinks": [
     {
       "label": "Быстрый старт",
@@ -17,11 +17,11 @@
     }
   ],
   "hero": {
-    "eyebrow": "Raccster.com",
-    "title": "Инструкция по подключению VPN и покупке",
-    "lead": "Чтобы разблокировать весь интернет, можно быстро получить прокси через наш переходник и сразу перейти в бота для покупки, либо подключиться вручную по инструкции ниже.",
+    "eyebrow": "Raccster VPN",
+    "title": "🚀 Разблокируй весь интернет за 30 секунд",
+    "lead": "Подключи VPN через Telegram-бота за минуту.",
     "primaryAction": {
-      "label": "Открыть переходник",
+      "label": "Перейти в телеграмм",
       "href": "https://web.raccster.dmtr.ru/raccster-bot",
       "newTab": true
     },
