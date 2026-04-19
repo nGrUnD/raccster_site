@@ -1,0 +1,147 @@
+{
+  "siteTitle": "Raccster | Подключение VPN и покупка",
+  "metaDescription": "Инструкция по подключению VPN, прокси и покупке доступа через Raccster.",
+  "brandName": "Raccster",
+  "navLinks": [
+    {
+      "label": "Быстрый старт",
+      "href": "#fast-start"
+    },
+    {
+      "label": "Windows / Mac",
+      "href": "#manual"
+    },
+    {
+      "label": "Покупка",
+      "href": "#buy"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Raccster.com",
+    "title": "Инструкция по подключению VPN и покупке",
+    "lead": "Чтобы разблокировать весь интернет, можно быстро получить прокси через наш переходник и сразу перейти в бота для покупки, либо подключиться вручную по инструкции ниже.",
+    "primaryAction": {
+      "label": "Открыть переходник",
+      "href": "https://web.raccster.dmtr.ru/raccster-bot",
+      "newTab": true
+    },
+    "secondaryAction": {
+      "label": "Ручное подключение",
+      "href": "#manual",
+      "newTab": false
+    },
+    "statusCard": {
+      "label": "Важно",
+      "title": "Telegram сейчас могут замедлять",
+      "description": "Если бот не открывается напрямую, сначала подключите прокси через переходник, а затем повторно откройте Telegram."
+    }
+  },
+  "fastStart": {
+    "kicker": "Быстрый способ",
+    "title": "Через переходник за пару минут",
+    "description": "Самый простой путь: открыть переходник, подключить прокси для Telegram и перейти в бота для оформления покупки.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Откройте переходник",
+        "description": "Перейдите на страницу-переходник, которая помогает быстро подключить прокси и открыть Telegram-бота.",
+        "linkLabel": "web.raccster.dmtr.ru/raccster-bot",
+        "linkUrl": "https://web.raccster.dmtr.ru/raccster-bot"
+      },
+      {
+        "number": "2",
+        "title": "Подключите прокси",
+        "description": "Нажмите кнопку ускорения Telegram. Если приложение не открылось автоматически, используйте fallback-ссылку или вставьте proxy-строку вручную."
+      },
+      {
+        "number": "3",
+        "title": "Откройте бота и совершите покупку",
+        "description": "После подключения прокси переходник отправит вас в Telegram, где можно открыть бота и завершить покупку доступа."
+      }
+    ]
+  },
+  "manualGuide": {
+    "kicker": "Инструкция для Windows / Mac",
+    "title": "Ручное подключение по шагам",
+    "description": "Если хотите подключиться без переходника, установите приложение, откройте страницу подключения и импортируйте конфиг.",
+    "appChoices": [
+      {
+        "name": "hApp",
+        "description": "Выберите версию под вашу систему",
+        "downloads": [
+          {
+            "platform": "Windows",
+            "url": "https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe"
+          },
+          {
+            "platform": "macOS",
+            "url": "https://github.com/Happ-proxy/happ-desktop/releases/latest/download/Happ.macOS.universal.dmg"
+          }
+        ]
+      },
+      {
+        "name": "Hiddify",
+        "description": "Выберите версию под вашу систему",
+        "downloads": [
+          {
+            "platform": "Windows",
+            "url": "https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-Windows-Setup-x64.exe"
+          },
+          {
+            "platform": "macOS",
+            "url": "https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-MacOS.dmg"
+          }
+        ]
+      }
+    ],
+    "connectionStep": {
+      "number": "2",
+      "title": "Откройте страницу подключения",
+      "description": "Ссылка подключения вынесена в отдельную кнопку ниже. После открытия страницы вы сможете импортировать конфиг в приложение.",
+      "buttonLabel": "Открыть страницу подключения",
+      "buttonUrl": "https://web.raccster.dmtr.ru/raccster-bot",
+      "helperText": "Если кнопка неактивна или ссылка устарела, обновите ссылку подключения в Sanity перед публикацией."
+    },
+    "activationStep": {
+      "number": "3",
+      "title": "Импортируйте конфиг и включите подключение",
+      "description": "Откройте ссылку подключения, импортируйте конфиг в hApp или Hiddify и активируйте соединение в приложении.",
+      "checklist": [
+        "Разрешите приложению добавить VPN-конфигурацию, если система попросит.",
+        "Убедитесь, что статус подключения стал активным.",
+        "После подключения снова откройте Telegram или нужный сайт."
+      ]
+    }
+  },
+  "buySection": {
+    "kicker": "Покупка",
+    "title": "Что делать после подключения",
+    "description": "Когда прокси или VPN уже включены, вернитесь в переходник и откройте бота в Telegram. Дальше покупка оформляется внутри бота.",
+    "cardTitle": "Перейти к покупке",
+    "cardDescription": "Если Telegram ранее не открывался, после подключения доступ обычно появляется сразу.",
+    "action": {
+      "label": "Открыть переходник и бота",
+      "href": "https://web.raccster.dmtr.ru/raccster-bot",
+      "newTab": true
+    }
+  },
+  "faqSection": {
+    "kicker": "Подсказки",
+    "title": "Если что-то не сработало",
+    "items": [
+      {
+        "title": "Бот не открывается",
+        "description": "Сначала подключите прокси через переходник, затем полностью закройте и заново откройте Telegram."
+      },
+      {
+        "title": "Нет ссылки подключения",
+        "description": "Откройте админку Sanity и обновите ссылку подключения перед следующей публикацией сайта."
+      },
+      {
+        "title": "Нужен самый простой путь",
+        "description": "Используйте переходник: он уже объединяет подключение прокси и вход в Telegram-бота на одной странице."
+      }
+    ]
+  },
+  "footerText": "Raccster. Инструкция по подключению и покупке."
+}

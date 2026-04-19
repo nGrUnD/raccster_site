@@ -1,0 +1,20 @@
+{
+  "name": "raccster-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:site": "node scripts/build.mjs",
+    "sanity": "sanity",
+    "sanity:dev": "sanity dev",
+    "sanity:deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "@sanity/client": "latest",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "sanity": "latest",
+    "styled-components": "^6.4.0"
+  }
+}
